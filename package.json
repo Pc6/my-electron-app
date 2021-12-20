@@ -40,7 +40,12 @@
         },
         {
           "name": "@electron-forge/maker-deb",
-          "config": {}
+          "config": {
+            "options": {
+              "maintainer": "Pc6",
+              "homepage": "https://example.com"
+            }
+          }
         },
         {
           "name": "@electron-forge/maker-rpm",
